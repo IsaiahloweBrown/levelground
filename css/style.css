@@ -1,0 +1,1183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Roboto:wght@100;300;400;500;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background: rgb(102, 118, 138);
+    /* border: 2px solid black; */
+    height: 100px;
+}
+
+
+main {
+    float: left;
+    height: 1200px;
+    width: 100%;
+    background: white;
+    /* border: 5px solid orange; */
+}
+
+
+
+
+.first-page {
+    background: rgb(102, 118, 138);
+    height: 90%;
+    /* border: 5px solid orange; */
+
+}
+
+.second-page {
+    background: rgb(255, 255, 255);
+    height: 70%;
+    /* border: 5px solid orange; */
+
+}
+
+.third-page {
+    background: rgb(219, 223, 226);
+    height: 100%;
+    /* border: 5px solid orange; */
+
+}
+
+.fourth-page {
+    background:  rgb(255, 255, 255);
+    height: 100%;
+    /* border: 5px solid orange; */
+
+}
+
+.menu-area {
+    float: left;
+    width: 5%;
+    height: 100px;
+    display: none;
+
+
+}
+
+.menu-area section {
+    padding-top: 35%;
+    float: left;
+ 
+    
+}
+.menu {
+    width: 45%;
+    /* border: 3px solid; */
+}
+
+
+.nav-bar-area {
+    float: left;
+    width: 25%;
+    height: 100px;
+    /* border: 3px solid red; */
+   
+}
+
+.nav-bar-area li, .nav-bar-area a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    float: left;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.nav-bar-area li {
+    padding-left: 4%;
+    padding-top: 9.5%;
+  
+}
+
+
+.logo-area {
+    float: left;
+    width: 50%;
+    height: 100px;
+    /* border: 3px solid red; */
+}
+
+.logo-area img {
+    width: 75px;
+    height: 75px;
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+   
+   
+}
+
+
+
+.outer-logo-section .logo-area {
+    padding-top: 0.5%;
+}
+
+.donate-area {
+    float: right;
+    width: 7%;
+    height: 100px;
+    /* border: 3px solid red;
+     */
+}
+
+.donate-button {
+    float: right;
+    background: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(102, 118, 138);
+    left: 89%;
+    transform: translateX(-50%);
+    text-decoration: none;
+}
+
+.outer-donate-section .donate-area {
+    padding-top: 1.5%;
+}
+
+
+/*
+///////////////////////////////////////
+ First page 
+///////////////////////////////////////
+ */
+.heading-area {
+    float: left;
+    width: 100%;
+    height: 350px;
+    /* border: 3px solid blue; */
+}
+
+.heading-area h1 {
+    font-size: 8rem;
+    font-weight: 600;
+    padding-top: 6.9%;
+    text-align: center;
+    /* padding-left: 12%; */
+    /* border: 5px solid orange; */
+}
+
+
+.first-page {
+
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(102, 118, 138, 0.8)),url('../images/backgroundOne.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(70%);
+    /* border: 5px solid orange; */
+}
+
+
+.first-paragraph-area {
+    width: 100%;
+    float: left;
+    font-size: 6rem;
+    text-transform: uppercase;
+    padding-left: 24%;
+    font-weight: bold;
+    text-align: center;
+    /* border: 3px solid blue; */
+}
+
+.first-paragraph-area p {
+    width: 75%;
+    padding-bottom: 10%;
+}
+.video-area {
+    float: left;
+    width: 100%;
+    height: 100px;
+    /* border: 4px solid firebrick; */
+    
+}
+
+.video-button-area {
+    float: left;
+    width: 50%;
+    height: 90px;
+    /* border: 2px solid yellow; */
+}
+
+.video-button-area img {
+    float: right;
+    max-width: 50px;
+    max-height: 50px;
+    
+}
+
+.video-link-area {
+    font-size: 4.1rem;
+
+}
+
+.video-link-area a {
+    
+    text-decoration: none;
+    padding-left: 0.5%;
+}
+
+/*
+///////////////////////////////////////
+ First page ends 
+///////////////////////////////////////
+ */
+
+
+
+
+ /*
+///////////////////////////////////////
+ Second page 
+///////////////////////////////////////
+ */
+
+.heading-area-two  {
+    float: left;
+    width: 100%;
+    height: 350px;
+    color: black;
+
+}
+
+.heading-area-two h1 {
+    color: black;
+    font-size: 8.5rem;
+    font-weight: 600;
+    padding-top: 9%;
+    text-align: center;
+}
+
+.second-paragraph-area {
+    float: left;
+    width: 100%;
+    height: 220px;
+
+}
+
+.second-paragraph-area p {
+    float: left;
+    width: 40%;
+    color:  black;
+    font-size: 3.5rem;
+    font-weight: 100;
+    text-align: center;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+   
+
+}
+ /*
+///////////////////////////////////////
+ Second page ends 
+///////////////////////////////////////
+ */
+
+
+
+
+
+
+  /*
+///////////////////////////////////////
+ Third page 
+///////////////////////////////////////
+ */
+
+
+
+
+ .page-column-one, .page-column-two {
+    float: left;
+    width: 50%;
+    height: 78%;
+    /* border: 3px solid fuchsia; */
+
+ }
+ 
+ /* .page-column-two {
+    float: left;
+    width: 50%;
+    height: 78%; */
+    /* border: 3px solid fuchsia; */
+
+ /* } */
+
+ .heading-image-one, .heading-image-two {
+    float: left;
+    width: 100%;
+    height: 55%;
+    /* border: 5px solid rgb(0, 0, 0); */
+ }
+ 
+.heading-area-three {   
+    float: left;
+    width: 100%;    
+    height: 7%;
+    /* border: 5px solid rgb(0, 0, 0); */
+}
+
+.third-paragraph-area, .fourth-paragraph-area {
+    float: left;
+    width: 100%;    
+    height: 30%;
+    text-align: center;
+    /* border: 5px solid rgb(0, 0, 0); */
+}
+.third-paragraph-area p, .fourth-paragraph-area p {
+    text-align: center;
+    /* border: 5px solid rgb(0, 0, 0); */
+}
+
+.see-class-area, .hire-us-area {
+    float: left;
+    width: 100%;    
+    height: 20%;
+    /* border: 5px solid rgb(0, 0, 0); */
+}
+
+
+.image-one {
+    float: left;
+    width: 60%;
+    left: 10%;
+    padding-top: 12%;
+    transform: translateX(35%);
+    -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(70%);
+    
+ 
+   
+    
+}
+
+.image-two {
+    float: left;
+    width: 60%;
+    left: 10%;
+    padding-top: 12%;
+    transform: translateX(30%);
+    -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(95%);
+    
+}
+
+.heading-area-three h3 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+
+    
+}
+
+
+.third-paragraph-area p, .fourth-paragraph-area p{
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+
+    text-align: center;
+
+}
+
+
+.see-class-area a, .hire-us-area a{
+    float: left;
+    background: transparent;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 20px 60px;
+    color: black;
+    border: 2px solid rgb(102, 118, 138);
+   
+   
+}
+
+
+.outer-class-area .see-class-area {
+    padding-top: 1%;
+    padding-left: 37%;
+}
+
+
+.outer-hire-area .hire-us-area {
+    padding-top: 1%;
+    padding-left: 40%;
+}
+
+
+
+   /*
+///////////////////////////////////////
+ Third page ends 
+///////////////////////////////////////
+ */
+
+   /*
+///////////////////////////////////////
+ Fourth page
+///////////////////////////////////////
+ */
+
+
+
+.heading-area-four {
+    float: left;
+    width: 100%;    
+    height: 30%;
+    /* border: 3px solid saddlebrown; */
+}
+
+
+.fifth-paragraph-area {
+    float: left;
+    width: 100%;    
+    height: 25%;
+    /* border: 5px solid rgb(0, 0, 0); */
+}
+
+.outer-volunteer-area {
+    float: left;
+    width: 100%;    
+    height: 20%;
+
+    /* border: 5px solid rgb(0, 0, 0); */
+}
+
+
+
+.heading-area-four h1 {
+    
+    font-size: 4rem;
+    font-weight: 600;
+    color: black;
+    left: 10%;
+    text-align: center;
+    padding-top: 12%;
+ 
+
+    
+}
+
+
+.fifth-paragraph-area p{
+  
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin: 0 auto;
+    width: 65%;
+  
+
+
+}
+
+
+.volunteer-area a{
+    float: left;
+    background: transparent;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 20px 60px;
+    color: black;
+    border: 2px solid rgb(102, 118, 138);
+    text-decoration: none;
+   
+   
+}
+
+
+/* .outer-volunteer-area .volunteer-area {
+    padding-top: 1%;
+    padding-left: 43%;
+}
+ */
+
+    /*
+///////////////////////////////////////
+ Fourth page ends 
+///////////////////////////////////////
+ */
+/* 
+
+ .bottom {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    clear: both;
+} */
+.footer {
+    background-color: rgb(22, 31, 42);
+    height: 300px;
+    width: 100%;
+    clear: both;
+}
+.part-one {
+    float: left;
+    width: 50%;
+    height: 70%;
+    /* border: 3px solid;  */
+}
+.social-media {
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin: 2%;
+    /* border: 3px solid; */
+}
+.facebook {
+    float: left;
+    width: 17%;
+    height: 100%;
+    /* border: 3px solid green; */
+    padding-top: 3%; 
+}
+.facebook img {
+    height: 32px;
+    width: 32px;
+}
+.twitter {
+    float: left;
+    width: 20%;
+    height: 100%;
+    /* border: 3px solid; */
+}
+.twitter img {
+    height: 48px;
+    width: 48px;
+}
+.email {
+    float: left;
+    width: 17%;
+    height: 100%;
+    /* border: 3px solid; */
+    padding-top: 3%;
+}
+.email img {
+    height: 32px;
+    width: 32px;
+}
+.site-map-area {
+    float: left;
+    width: 100%;
+    height: 12%;
+    /* border: 3px solid; */
+    font-size: 2.5rem;
+    margin-left: 2%;
+}
+.site-map-area span {
+    color: rgb(104, 120, 140);
+    font-weight: 700;
+}
+.map-area {
+    float: left;
+    width: 100%;
+    height: 15%;
+    /* border: 3px solid; */
+    font-size: 2.5rem;
+    margin-left: 2%;
+}
+.map-area span {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.classes {
+    float: left;
+    width: 12%;
+    height: 100%;
+    /* border: 3px solid; */
+    font-size: 2.5rem; 
+}
+.hire-us {
+    float: left;
+    width: 12%;
+    height: 100%;
+    /* border: 3px solid; */
+    font-size: 2.5rem; 
+}
+.contribute-area {
+    float: left;
+    width: 100%;
+    height: 12%;
+    /* border: 3px solid; */
+    font-size: 2.5rem;
+    margin-left: 2%;
+}
+.contribute-area span {
+    color: rgb(104, 120, 140);
+    font-weight: 700;
+}
+.give-volunteer-area {
+    float: left;
+    width: 100%;
+    height: 15%;
+    /* border: 3px solid; */
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 2%;
+}
+.give {
+    float: left;
+    width: 12%;
+    height: 100%;
+    /* border: 3px solid; */
+    font-size: 2.5rem;
+}
+.volunteer {
+    float: left;
+    width: 12%;
+    height: 100%;
+    /* border: 3px solid; */
+    font-size: 2.5rem;
+}
+.part-two {
+    float: left;
+    width: 50%;
+    height: 70%;
+    /* border: 3px solid;   */
+}
+.right-info {
+    float: right;
+    width: 30%;
+    height: 100%;
+    /* border: 3px solid;   */
+    margin: 2%;
+}
+.name {
+    float: right;
+    width: 100%;
+    height: 15%;
+    /* border: 3px solid; */
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.mma {
+    float: right;
+    width: 100%;
+    height: 15%;
+    /* border: 3px solid; */
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.address-part-one,.address-part-two, .address-part-three, .address-part-four  {
+    float: right;
+    width: 100%;
+    height: 15%;
+    /* border: 3px solid; */
+    font-size: 2.3rem;
+}
+.address-part-four{
+    font-weight: 700;
+}
+.part-three {
+    float: left;
+    width: 97.5%;
+    height: 30%;
+    border-top: 2px solid; 
+    margin-top: 1.5%;
+    margin-left: 1%;
+}
+.tax-exempt {
+    float: left;
+    width: 97%;
+    height: 100%;
+    /* border: 3px solid; */
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.footer-logo {
+    float: right;
+    width: 3%;
+    height: 100%;
+    /* border: 3px solid; */
+    padding-top: 1.5%;
+
+}
+.footer-logo img {
+    width: 32px;
+    height: 32px;
+
+}
+
+
+
+
+
+
+
+/* Media */
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .html, body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    /* Footer  */
+    .tax-exempt {
+        width: 85%;
+        font-size: 2rem;
+    }
+    .footer-logo {
+       
+        width: 15%;
+    }
+    .footer .part-two,.contribute-area, .give-volunteer-area, .site-map-area, .map-area {
+        display: none;
+     
+    }
+    .part-one {
+        height: 20%;
+        margin: 0 auto;
+    }
+    .footer .social-media {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .social-media section {
+        padding-left: 5%;
+    }
+
+    
+    /* Footer  */
+
+
+    
+    /* Buttons  */
+    .outer-class-area .see-class-area {
+        padding-top: 1%;
+        padding-left: 25%;
+    }
+    .outer-hire-area .hire-us-area {
+        padding-top: 1%;
+        padding-left: 25%;
+    }
+    .outer-volunteer-area {
+        padding-top: 1%;
+        padding-left: 19%;
+    }
+
+     /* Buttons  */
+
+      /*   */
+    .heading-area-four {
+        height: 15%;
+    }
+    .html, body {
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .nav-bar-area {
+        display: none;
+    }
+    .menu-area {
+        display: block;
+    }
+    .menu-area section {
+        float: left;
+        padding-top: 120%;
+        padding-left: 50%;
+    }
+    .menu {
+        width: 300%;
+        height: 100%;
+        /* border: 3px solid; */
+    }
+    .heading-area h1 {
+        font-size: 1.8rem;
+        text-align: center;
+        padding-top: 30%;
+    }
+    .heading-area-two h1 {
+        font-size: 4rem;
+        text-align: center;
+     
+    }
+    .heading-area-two {
+       height: 10;
+     
+    }
+    .heading-area-three h3, .heading-area-four h3 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .video-button-area img {
+        float: right;
+        max-width: 35px;
+        max-height: 35px;
+        text-align:  center;
+        
+    }
+
+    
+    .video-link-area {
+        font-size: 2.5rem;
+    
+    }
+    .first-paragraph-area {
+        font-size: 3rem;
+    }
+    .second-paragraph-area p {
+        font-size: 2.5rem;
+        width: 75%;
+    }
+    .third-paragraph-area p, .fourth-paragraph-area p{
+        font-size: 1.5rem;
+        
+    }
+    .third-paragraph-area , .fourth-paragraph-area{
+        height: 25%;
+        
+    }
+    /* RESUME HERE */
+    .fifth-paragraph-area p {
+        font-size: 1.5rem;
+    }
+    .donate-area {
+        display: none;
+    }
+    .page-column-one, .page-column-two {
+
+        width: 100%;
+        height: 50%;
+     }
+     .page-column-two {
+        background-color:rgb(219, 223, 226) ;
+     }
+     .heading-image-one, .heading-image-two {
+        height: 45%
+     }
+     .heading-area-four h1 {
+    
+        font-size: 2rem;   
+    }
+    
+   
+
+ }
+
+
+ @media (min-width: 481px) and (max-width: 767px) {
+    .tax-exempt {
+        width: 85%;
+        font-size: 2rem;
+    }
+    .footer-logo {
+       
+        width: 15%;
+    }
+    .footer .part-two,.contribute-area, .give-volunteer-area, .site-map-area, .map-area {
+        display: none;
+     
+    }
+    .part-one {
+        height: 20%;
+        margin: 0 auto;
+    }
+    .footer .social-media {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .social-media section {
+        padding-left: 5%;
+    }
+
+    
+    /* BUTTONS */
+    .html, body {
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .outer-class-area .see-class-area {
+        padding-top: 1%;
+        padding-left: 29%;
+    }
+    .outer-hire-area .hire-us-area {
+        padding-top: 1%;
+        padding-left: 29%;
+    }
+    .outer-volunteer-area {
+        padding-top: 1%;
+        padding-left: 29%;
+    }
+
+    /* PARAGRAPHS */
+    .first-paragraph-area {
+        font-size: 3rem;
+    }
+    .second-paragraph-area p {
+        font-size: 2.5rem;
+        width: 75%;
+    }
+    .third-paragraph-area , .fourth-paragraph-area{
+        height: 15%;
+        
+    }
+    .third-paragraph-area p, .fourth-paragraph-area p{
+        font-size: 2rem;
+        width: 90%;
+    }
+    .fifth-paragraph-area p {
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+    /* Header area */
+    .nav-bar-area {
+        display: none;
+    }
+    .nav-bar-area {
+        display: none;
+    }
+    .menu-area {
+        display: block;
+    }
+    .menu-area section {
+        float: left;
+        padding-top: 70%;
+        padding-left: 50%;
+    }
+    .menu {
+        width: 200%;
+        height: 100%;
+        /* border: 3px solid; */
+    }
+    .heading-area h1 {
+        float: none;
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 30%;
+
+    }
+    /* Title area  */
+    .heading-image-one, .heading-image-two {
+        height: 25%
+     }
+     .heading-area-two h1 {
+        font-size: 4rem;
+    }
+    .heading-area-three h3 {
+        font-size: 2rem;
+    }
+    .heading-area-four h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    /*  */
+    .page-column-one, .page-column-two {
+
+        width: 100%;
+        height: 100%;
+     }
+     .page-column-two {
+        background-color:rgb(219, 223, 226) ;
+     }
+ }
+
+
+
+ 
+    
+ 
+ 
+ @media (min-width: 768px) and (max-width: 1023px) {
+    .tax-exempt {
+        width: 85%;
+        font-size: 2rem;
+    }
+    .footer-logo {
+       
+        width: 15%;
+    }
+    .footer .part-two,.contribute-area, .give-volunteer-area, .site-map-area, .map-area {
+        display: none;
+     
+    }
+    .part-one {
+        height: 20%;
+        margin: 0 auto;
+    }
+    .footer .social-media {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .social-media section {
+        padding-left: 5%;
+    }
+    .outer-volunteer-area {
+        padding-top: 1%;
+        padding-left: 35%;
+    }
+    .html, body {
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .heading-area h1 {
+        font-size: 2.7rem;
+        text-align: center;
+        padding-top: 30%;
+        /* width: 130%;  */
+    }
+    .first-paragraph-area {
+        font-size: 2.7rem;
+    }
+    .heading-area-two {
+        height: 35%;
+    }
+
+    .heading-area-two h1 {
+        font-size: 4rem;
+    }
+    .second-paragraph-area p {
+        font-size: 2.5rem;
+        width: 75%;
+    }
+    .third-paragraph-area p, .fourth-paragraph-area p{
+        font-size: 2.3rem;
+        width: 100%;
+    }
+    .fifth-paragraph-area p {
+        font-size: 3rem;
+        text-align: center;
+        width: 100%;
+    }
+    .page-column-one, .page-column-two {
+
+        width: 100%;
+        height: 100%;
+     }
+     .page-column-two {
+        background-color:rgb(219, 223, 226) ;
+     }
+ }
+
+@media screen and (min-width: 1024px) and (max-width: 1182px) {
+    .page-column-one, .page-column-two {
+
+        width: 100%;
+        height: 100%;
+     }
+     .page-column-two {
+        background-color:rgb(219, 223, 226) ;
+     }
+     
+     .fifth-paragraph-area p {
+        font-size: 3rem;
+  
+    }
+    .outer-volunteer-area {
+        padding-top: 1%;
+        padding-left: 39%;
+    }
+      /* Footer  */
+    .tax-exempt {
+        width: 85%;
+        font-size: 2rem;
+    }
+    .footer-logo {
+       
+        width: 15%;
+    }
+    .footer .part-two,.contribute-area, .give-volunteer-area, .site-map-area, .map-area {
+        display: none;
+     
+    }
+    .twitter {
+        padding-top: 2.5%;
+    }
+    .part-one {
+        height: 20%;
+        margin: 0 auto;
+    }
+    .footer .social-media {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .social-media section {
+        padding-left: 5%;
+    }
+
+    
+    /* Footer  */
+}
+
+
+
+
+
+@media (min-width: 1183px) and (max-width: 1601px) {
+    .heading-area h1 {
+        font-size: 5.1rem;
+    }
+    .third-paragraph-area p, .fourth-paragraph-area p{
+        font-size: 3rem;
+        width: 90%;
+    }
+    .fifth-paragraph-area p {
+        font-size: 3rem;
+        width: 75%;
+    }
+    .outer-volunteer-area {
+        padding-top: 1%;
+        padding-left: 39%;
+    }
+}
+@media (min-width: 1491px) and (max-width: 1629px) {
+    .third-paragraph-area p, .fourth-paragraph-area p{
+        font-size: 3rem;
+        width: 85%;
+    }
+    .fifth-paragraph-area p {
+        font-size: 3.5rem;
+    }
+    .outer-volunteer-area {
+        padding-top: 1%;
+        padding-left: 39%;
+    }
+}
+@media (min-width:1630px) and (max-width: 1920px) {
+    .outer-volunteer-area {
+        padding-top: 1%;
+        padding-left: 43%;
+    }
+}
+    
